@@ -1,0 +1,10 @@
+========= EXEMPLOS E CONHECIMENTOS EXTRAS ========
+
+EXEMPLO 01 -> passar informação em formato json
+
+```
+app.get("/", ( request, response ) => {
+    return response.json({"Olá NLW 05!"});
+})
+```
+
